@@ -5,7 +5,9 @@
 - 眼睛和脑袋跟着你的鼠标，会呼吸、眨眼、摇尾巴
 - 把鼠标在它头上来回摸，它会眯起眼睛打呼噜、冒爱心
 - 你在任何地方滚鼠标滚轮（看网页、看代码），它就在猫抓棒上磨爪子
-- 可以拖到任何地方，右键或托盘图标里可以调 7 档大小、开机自启、退出
+- 一会儿没人理它，它会自己打哈欠、舔爪子洗脸、打盹点头
+- 可以换衣服：头、脸、脖子、尾巴四个部位，有围巾、领结、铃铛项圈、小圆帽、蝴蝶结、小皇冠、圆眼镜、单片眼镜、丝带、条纹尾套，可以混搭，下次打开还记得
+- 可以拖到任何地方，右键或托盘图标里可以换衣服、调 7 档大小、开机自启、退出
 
 ## 下载和运行
 
@@ -27,4 +29,4 @@
 
 ---
 
-**DaiFeiFei** is a free, offline desktop pet for Windows: a chubby grey-and-white cat in a green scarf. It follows your cursor, purrs when you stroke its head, and scratches a post while you scroll. Download the zip from Releases, unzip, run `DaiFeiFei.exe`. Inspired by Comnyang; not affiliated with it and contains none of its code or assets. All rights to the DaiFeiFei character reserved.
+**DaiFeiFei** is a free, offline desktop pet for Windows: a chubby grey-and-white cat in a green scarf. It follows your cursor, purrs when you stroke its head, scratches a post while you scroll, and yawns, washes or dozes when left alone. Dress it up from the right-click menu with ten pieces of clothing across head, face, neck and tail. Download the zip from Releases, unzip, run `DaiFeiFei.exe`. Inspired by Comnyang; not affiliated with it and contains none of its code or assets. All rights to the DaiFeiFei character reserved.
