@@ -3,13 +3,13 @@
 一只住在 Windows 和 Mac 桌面上的灰白胖猫，戴着绿围巾。免费，不联网。
 
 - 眼睛和脑袋跟着你的鼠标，会呼吸、眨眼、摇尾巴
-- 把鼠标在它头上来回摸，它会眯起眼睛打呼噜、冒爱心
+- 把鼠标在它头上来回摸，它会眯起眼睛打呼噜、冒爱心（在办公室可以从右键菜单关掉呼噜声）
 - 你在任何地方滚鼠标滚轮（看网页、看代码），它就在猫抓棒上磨爪子
 - 把它拖到屏幕左边或右边边上放下，它就藏在边外探头往里看
 - 一会儿没人理它，它会自己打哈欠、舔爪子洗脸、打盹点头
 - 看视频、打游戏、放幻灯片全屏时它会躲起来，退出全屏就回到原处（只有 Windows 版有）
 - 可以换衣服：头、脸、脖子、尾巴四个部位，有围巾、领结、铃铛项圈、小圆帽、蝴蝶结、小皇冠、圆眼镜、单片眼镜、丝带、条纹尾套，可以混搭，下次打开还记得
-- 可以拖到任何地方，右键或托盘图标里可以换衣服、调 7 档大小、开机自启、退出
+- 可以拖到任何地方，右键或托盘图标里可以换衣服、调 7 档大小、开关呼噜声、开机自启、退出
 
 ## 下载和运行
 
@@ -26,13 +26,13 @@
 ### Mac
 
 1. 下载 `DaiFeiFei-<版本>-mac-arm64.dmg`。只支持 Apple 芯片（M1 及以后）的 Mac，Intel 芯片的 Mac 用不了
-2. 打开 dmg，把 DaiFeiFei 拖进“应用程序”
+2. 打开 dmg，把 DaiFeiFei 拖进“应用程序”。直接在 dmg 或“下载”里打开的话，它会先问要不要帮你移过去：要移，不然辅助功能权限和开机自启都记不住
 3. 第一次打开时 macOS 会提示无法验证开发者（程序没有签名）：先关掉提示，到“系统设置 → 隐私与安全性”最下面点“仍要打开”。如果提示“已损坏”，在终端运行 `xattr -cr /Applications/DaiFeiFei.app` 再打开
-4. 想让它磨爪子，要在“系统设置 → 隐私与安全性 → 辅助功能”里打开 DaiFeiFei（它要靠这个知道你在滚滚轮），然后重新打开它
+4. 想让它磨爪子，要在“系统设置 → 隐私与安全性 → 辅助功能”里打开 DaiFeiFei（它要靠这个知道你在滚滚轮）。打开后一般过一两秒它就会磨了；要是还不磨，从菜单栏图标退出再打开一次
 
-猫的图标在屏幕顶部的菜单栏里，不在 Dock 里。Mac 版没有全屏时躲起来。卸载就是退出后把 DaiFeiFei 从“应用程序”删掉，设置在 `~/Library/Application Support/DaiFeiFei`，也可以一起删掉。
+猫的图标在屏幕顶部的菜单栏里，不在 Dock 里。切换桌面（调度中心里的不同桌面）时猫会跟着你。Mac 版没有全屏时躲起来。卸载就是退出后把 DaiFeiFei 从“应用程序”删掉，设置在 `~/Library/Application Support/DaiFeiFei`，也可以一起删掉。
 
-猫跑到屏幕外找不到了？从托盘（Mac 上是菜单栏）图标退出，再打开它就会回来。
+拔掉显示器或者改了分辨率，猫不在任何屏幕上了，它会自己回到主屏右下角。还是找不到？再打开一次 DaiFeiFei，它就会回来。
 
 ## 条款
 
@@ -46,4 +46,4 @@
 
 ---
 
-**DaiFeiFei** is a free, offline desktop pet for Windows and Mac: a chubby grey-and-white cat in a green scarf. It follows your cursor, purrs when you stroke its head, scratches a post while you scroll, and yawns, washes or dozes when left alone. Dress it up from the right-click menu with ten pieces of clothing across head, face, neck and tail. Download the zip (Windows) or the dmg (Mac with Apple silicon only) from Releases. The Mac app is unsigned: allow it under System Settings → Privacy & Security, and grant it Accessibility there for the scratching. Inspired by Comnyang; not affiliated with it and contains none of its code or assets. All rights to the DaiFeiFei character reserved.
+**DaiFeiFei** is a free, offline desktop pet for Windows and Mac: a chubby grey-and-white cat in a green scarf. It follows your cursor, purrs when you stroke its head, scratches a post while you scroll, and yawns, washes or dozes when left alone. Dress it up from the right-click menu with ten pieces of clothing across head, face, neck and tail. Download the zip (Windows) or the dmg (Mac with Apple silicon only) from Releases. The Mac app is unsigned: allow it under System Settings → Privacy & Security, and grant it Accessibility there for the scratching (if it does not start within a few seconds, quit and reopen it). Inspired by Comnyang; not affiliated with it and contains none of its code or assets. All rights to the DaiFeiFei character reserved.
